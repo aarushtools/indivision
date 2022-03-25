@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+  background: #212121;
+  font-family: 'Sarabun', sans-serif;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#header {
+  position: relative;
+  top: 260px;
+  text-align: center;
+}
+
+#logo {
+  position: relative; 
+  width: 303px;
+  height: 136px;
+  display: table;
+  margin: 0 auto;
+}
+
+#ultraviolet {
+  position: relative; 
+  top: 150px;
+  width: 210px;
+  height: 210px;
+  display: inline-block;
+  margin-left: 330px; 
+
+}
+
+#womginx {
+  position: relative; 
+  top: 150px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 260px; 
+}
+
+#ultravioletDesc {
+  position: relative; 
+  top: 130px;
+  display: inline-block;
+  margin-left: 385px; 
+}
+
+#womginxDesc {
+  position: relative; 
+  top: 120px;
+  display: inline-block;
+  margin-left: 382px; 
+}
+
+.animation {
+  transition: transform .2s;
+}
+
+.animation:hover {
+  transform: scale(1.2);
+}
+
+button {
+  background-color: #2596be;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  border-radius: 10px
+}
+
+button:hover {
+  background-color: #046daf;
+  cursor: pointer;
+}
+
+#showLog {
+  position: relative;
+  bottom: 100px;
+  margin-left: 600px;
+}
+
+#faq {
+  position: relative;
+  bottom: 85px;
+  margin-left: 600px;
+}
+
+#serverNumber {
+  position: relative;
+  bottom: 50px;
+  display: table;
+  margin: 0 auto;
+}
+
+#logBox {
+  background: #363535;
+  color: white;
+  border: none;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  top: 150px;
+  font-size: 50px
+}

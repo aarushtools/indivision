@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Indivision</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/logo.ico">
+  </head>
+  <body>
+    <textarea id="logBox" rows="5" cols="20"></textarea>
+    <button id="logButton" onclick="copyLog()">Copy Log</button>
+    <script>
+      // CONFIG START
+
+      // SERVER ID
+      
+      var serverID = 1;
+
+      //CONFIG END
+
+      window.onload = function() { 
+      document.getElementById("logBox").value = "womginx-"+serverID+"\nultraviolet-"+serverID+"\nindivision-"+serverID;
+};
+
+
+      function copyLog() {
+        var copyLog = document.getElementById("logBox");
+        copyLog.select();
+        navigator.clipboard.writeText(copyLog.value);
+      }
+    </script>
+  </body>
+</html>
