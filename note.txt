@@ -1,1 +1,1 @@
-this code is very messy bc replit has a lot of errors like denying access to certain resources (and i have no clue why)
+This code is messy because repl.it denies access to things and I had to make workarounds for that
